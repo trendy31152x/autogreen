@@ -6,7 +6,7 @@ on:
       - main
   schedule:
     - cron: "14 7/8 * * *"
-
+  workflow_dispatch:
 jobs:
   autogreen:
     runs-on: ubuntu-latest
